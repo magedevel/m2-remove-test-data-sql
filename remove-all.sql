@@ -193,6 +193,7 @@ INSERT INTO `catalog_category_entity_varchar` (`value_id`, `attribute_id`, `stor
 SET FOREIGN_KEY_CHECKS = 1;
 
 DELETE FROM url_rewrite WHERE entity_type = 'category';
+DELETE FROM url_rewrite WHERE entity_type = 'product';
 
 SET FOREIGN_KEY_CHECKS = 1;
 
